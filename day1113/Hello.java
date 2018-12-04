@@ -1,0 +1,19 @@
+package day1113;
+//1. source code 작성
+
+
+class Hello{
+	//단독으로 실행하여 결과를 제공하는 프로그램 : Java Application
+	public static void main(String[] args){
+		System.out.println("Hello World");
+	}	// main method
+
+}	//class 끝
+
+//2. 저장 : 클래스명.java (Hello.java)
+//3. 컴파일 : javac 소스파일명.java => byte code 생성
+//4. 실행 : java byte code명 => (java Hello)	 JBM으로 실행
+
+
+
+
