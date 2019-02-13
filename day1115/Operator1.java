@@ -51,12 +51,12 @@ class Operator1 {
 		System.out.println("후위연산 후 : i ="+i+", j = "+j);
 
 		//증가연산자와 감소연산자는 대입연산자와 함께 사용되면 전위와 후위가 다른 값을 대입한다.
-		j=0;
+		j=0; i=5;
 		//전위 : 내것 먼저
-		j = ++i;
+		j = ++i;	
 		System.out.println("전위연산 후 : i ="+i+", 대입 j = "+j);
 		//후위 : 남의 것 먼저
-		j=0;
+		j=0; i=5;
 		j = i++;
 		System.out.println("후위연산 후 : i ="+i+", 대입 j = "+j);
 

@@ -14,7 +14,8 @@ class PrimitiveDataType {
 		short b = 20;
 		int c = 30;
 		long d = 40; //할당되는 값이 4byte내 이므로 literal을 변환할 필요없음
-		long e=2147483648L; //literal에 저장이 되지 않으므로 literal의 크기를 변경 - 형명시
+		long e = 2147483648L; //literal에 저장이 되지 않으므로 literal의 크기를 변경 - 형명시
+		//최대는 2147483647
 
 		System.out.println("byte : " +a+ ", short : " +b+ ", int : "+c+", long : "+d+", "+e);
 
@@ -28,7 +29,7 @@ class PrimitiveDataType {
 
 		//실수
 		float i = 3.14F; //형명시 - 실수 literal은 8byte이고
-						//float 데이터형은 4type이므로 값할당이 되지 않는다.		
+						//float 데이터형은 4type이므로 값할당이 되지 않는다. 그래서 형명시!
 						
 		double j=3.14; //literal과 데이터형이 같으므로 형명시 생략 할수있다.
 		double k=3.14;

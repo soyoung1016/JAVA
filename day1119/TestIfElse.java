@@ -27,10 +27,7 @@ public class TestIfElse {
 		//수행하는 행수가 한 행이라면 {는 생략할 수 있다.
 		if (i%2==0) {
 			System.out.println("짝수");
-		} else { 
-			System.out.println("홀수");
-		}//end if
-			
+		} else System.out.println("홀수");
 		
 		//입력하는 수가 3의 배수라면 "짝"을 출력하고 그렇지 않다면 입력한 수를 출력하세요.
 		int a = Integer.parseInt(args[0]);
